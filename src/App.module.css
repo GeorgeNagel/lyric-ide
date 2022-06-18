@@ -1,11 +1,11 @@
-@value constants: "./constants.css";
+@value secondary from "./constants.module.css";
 
 .app {
   text-align: center;
 }
 
 .edit {
-  color: secondary from constants;
+  color: secondary;
 }
 
 .app-logo {
