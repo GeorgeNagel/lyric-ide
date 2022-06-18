@@ -1,5 +1,5 @@
 import styles from './Panel.module.css';
 
-const Panel = ({}) => <div className={styles.panel}>yolo</div>;
+const Panel = ({ children }) => <div className={styles.panel}>{children}</div>;
 
 export default Panel;

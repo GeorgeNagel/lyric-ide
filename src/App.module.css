@@ -1,7 +1,6 @@
 @value dark-2 from "./constants.module.css";
 
 .app {
-  text-align: center;
   background-color: dark-2;
   width: 100vw;
   height: 100vh;
