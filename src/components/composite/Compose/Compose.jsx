@@ -8,7 +8,7 @@ const Compose = ({}) => (
     <div>
         <Panel>
             <PanelHeader>
-                Compose (Best version), With Notes/Comments/Alternates
+                🏗 Compose (Best version), With Notes/Comments/Alternates
             </PanelHeader>
             <EditableContent />
         </Panel>

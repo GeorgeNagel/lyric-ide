@@ -7,7 +7,7 @@ import EditableContent from '../../base/EditableContent/EditableContent';
 const WordGraph = ({}) => (
     <div>
         <Panel>
-            <PanelHeader>WordGraph/Pool</PanelHeader>
+            <PanelHeader>🧩 WordGraph/Pool</PanelHeader>
             <EditableContent />
         </Panel>
     </div>

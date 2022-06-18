@@ -1,8 +1,8 @@
 import styles from './EditableContent.module.css';
 
-const EditableContent = ({}) => (
+const EditableContent = ({ children }) => (
     <div contentEditable="true" className={styles.editableContent}>
-        Foo
+        {children}
     </div>
 );
 

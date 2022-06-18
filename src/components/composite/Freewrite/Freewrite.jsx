@@ -7,7 +7,7 @@ import EditableContent from '../../base/EditableContent/EditableContent';
 const Freewrite = ({}) => (
     <div>
         <Panel>
-            <PanelHeader>Freewrite/Scratch</PanelHeader>
+            <PanelHeader>📔 Freewrite/Scratch</PanelHeader>
             <EditableContent />
         </Panel>
     </div>
