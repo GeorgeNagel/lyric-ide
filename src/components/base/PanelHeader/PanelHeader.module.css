@@ -1,0 +1,8 @@
+@value dark-1, light-3 from "../../../constants.module.css";
+
+.panel-header {
+    border: 1px solid black;
+    background-color: dark-1;
+    color: light-3;
+    padding: .5rem;
+}

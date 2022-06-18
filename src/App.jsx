@@ -1,14 +1,17 @@
-import { useState } from 'react';
 import styles from './App.module.css';
 
-import OutlinePanel from './components/composite/OutlinePanel/OutlinePanel';
+import Outline from './components/composite/Outline/Outline';
+import Freewrite from './components/composite/Freewrite/Freewrite';
+import WordGraph from './components/composite/WordGraph/WordGraph';
+import Compose from './components/composite/Compose/Compose';
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
         <div className={styles.app}>
-            <OutlinePanel />
+            <Outline />
+            <Freewrite />
+            <WordGraph />
+            <Compose />
         </div>
     );
 }
