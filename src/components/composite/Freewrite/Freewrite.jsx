@@ -5,12 +5,10 @@ import PanelHeader from '../../base/PanelHeader/PanelHeader';
 import EditableContent from '../../base/EditableContent/EditableContent';
 
 const Freewrite = ({}) => (
-    <div>
-        <Panel>
-            <PanelHeader>📔 Freewrite/Scratch</PanelHeader>
-            <EditableContent />
-        </Panel>
-    </div>
+    <Panel>
+        <PanelHeader>📔 Freewrite/Scratch</PanelHeader>
+        <EditableContent />
+    </Panel>
 );
 
 export default Freewrite;

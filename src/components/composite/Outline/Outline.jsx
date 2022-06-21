@@ -10,12 +10,10 @@ import EditableContent from '../../base/EditableContent/EditableContent';
 const Outline = ({}) => {
     const text = useSelector(getText);
     return (
-        <div>
-            <Panel>
-                <PanelHeader>💭 Outline</PanelHeader>
-                <EditableContent>{text}</EditableContent>
-            </Panel>
-        </div>
+        <Panel>
+            <PanelHeader>💭 Outline</PanelHeader>
+            <EditableContent>{text}</EditableContent>
+        </Panel>
     );
 };
 

@@ -5,12 +5,10 @@ import PanelHeader from '../../base/PanelHeader/PanelHeader';
 import EditableContent from '../../base/EditableContent/EditableContent';
 
 const WordGraph = ({}) => (
-    <div>
-        <Panel>
-            <PanelHeader>🧩 WordGraph/Pool</PanelHeader>
-            <EditableContent />
-        </Panel>
-    </div>
+    <Panel>
+        <PanelHeader>🧩 WordGraph/Pool</PanelHeader>
+        <EditableContent />
+    </Panel>
 );
 
 export default WordGraph;

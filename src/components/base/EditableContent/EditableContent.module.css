@@ -1,8 +1,6 @@
 @value dark-1, light-1 from "../../../constants.module.css";
 
 .editable-content {
-    min-width: 100px;
-    min-height: 100px;
     background-color: dark-1;
     color: light-1;
     padding: .5rem;

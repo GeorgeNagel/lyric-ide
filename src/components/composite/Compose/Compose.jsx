@@ -5,14 +5,12 @@ import PanelHeader from '../../base/PanelHeader/PanelHeader';
 import EditableContent from '../../base/EditableContent/EditableContent';
 
 const Compose = ({}) => (
-    <div>
-        <Panel>
-            <PanelHeader>
-                🏗 Compose (Best version), With Notes/Comments/Alternates
-            </PanelHeader>
-            <EditableContent />
-        </Panel>
-    </div>
+    <Panel>
+        <PanelHeader>
+            🏗 Compose (Best version), With Notes/Comments/Alternates
+        </PanelHeader>
+        <EditableContent />
+    </Panel>
 );
 
 export default Compose;
