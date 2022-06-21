@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-export const outlineSlice = createSlice({
-    name: 'outline',
+export const composeSlice = createSlice({
+    name: 'compose',
     initialState: {
         text: 'Hello',
     },
@@ -12,8 +12,8 @@ export const outlineSlice = createSlice({
     },
 });
 
-export const { setText } = outlineSlice.actions;
+export const { setText } = composeSlice.actions;
 
-export const getText = (state) => state.outline.text;
+export const getText = (state) => state.compose.text;
 
-export default outlineSlice.reducer;
+export default composeSlice.reducer;

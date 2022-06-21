@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import outlineReducer from './features/outlineSlice';
+import composeReducer from './features/composeSlice';
 import freewriteReducer from './features/freewriteSlice';
 
 export default configureStore({
     reducer: {
-        outline: outlineReducer,
+        compose: composeReducer,
         freewrite: freewriteReducer,
     },
 });
