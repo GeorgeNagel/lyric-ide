@@ -8,7 +8,7 @@ function App() {
     return (
         <div className={styles.app}>
             <Freewrite />
-            {/* <WordGraph /> */}
+            <WordGraph />
             <Compose />
         </div>
     );
