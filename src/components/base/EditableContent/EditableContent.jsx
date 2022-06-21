@@ -1,9 +1,12 @@
 import styles from './EditableContent.module.css';
 
-const EditableContent = ({ children }) => (
-    <div contentEditable="true" className={styles.editableContent}>
-        {children}
-    </div>
+const EditableContent = ({ text, onChange }) => (
+    <div
+        onInput={onChange}
+        contentEditable="true"
+        className={styles.editableContent}
+        html={<p>{text}</p>}
+    />
 );
 
 export default EditableContent;

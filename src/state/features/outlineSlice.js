@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 export const outlineSlice = createSlice({
-    name: 'counter',
+    name: 'outline',
     initialState: {
         text: 'Hello',
     },
     reducers: {
-        setText: (state) => {
-            state.text = 'e';
+        setText: (state, action) => {
+            state.text = action.payload;
         },
     },
 });
