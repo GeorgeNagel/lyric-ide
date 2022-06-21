@@ -4,4 +4,7 @@
   background-color: dark-2;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
