@@ -9,9 +9,9 @@ function App() {
     return (
         <div className={styles.app}>
             <Outline />
-            <Freewrite />
+            {/* <Freewrite />
             <WordGraph />
-            <Compose />
+            <Compose /> */}
         </div>
     );
 }

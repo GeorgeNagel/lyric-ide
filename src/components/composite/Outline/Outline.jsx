@@ -15,13 +15,9 @@ const Outline = ({}) => {
         <Panel>
             <PanelHeader>💭 Outline</PanelHeader>
             <EditableContent
-                onChange={(e) => {
-                    console.log(e);
-                    dispatch(setText(e.target.innerHTML));
-                }}
-            >
-                {text}
-            </EditableContent>
+                onChangeText={(text) => dispatch(setText(text))}
+                text={text}
+            />
         </Panel>
     );
 };
