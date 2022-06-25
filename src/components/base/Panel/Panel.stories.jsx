@@ -1,5 +1,9 @@
 import Panel from './Panel';
 
+export default {
+    title: 'Base / Panel',
+};
+
 export const Default = () => <Panel />;
 export const WithChildren = () => (
     <Panel>

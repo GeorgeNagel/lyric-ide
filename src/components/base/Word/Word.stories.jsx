@@ -1,5 +1,9 @@
 import Word from './Word';
 
+export default {
+    title: 'Base / Word',
+};
+
 const Template = (args) => (
     <div
         style={{ 'background-color': 'black', padding: '40px', height: '50%' }}
