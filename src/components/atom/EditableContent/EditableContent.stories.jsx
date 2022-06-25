@@ -1,7 +1,7 @@
 import EditableContent from './EditableContent';
 
 export default {
-    title: 'Base / EditableContent',
+    title: 'Atom / EditableContent',
 };
 
 export const Default = () => <EditableContent />;

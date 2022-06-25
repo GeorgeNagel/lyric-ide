@@ -1,4 +1,4 @@
-@value dark-1, dark-2, dark-3, light-3, light-2, light-1 from "../../constants.module.css";
+@value dark-1, dark-2, dark-3, light-3, light-2, light-1 from "../../../constants.module.css";
 
 .color-tile {
     width: 50px;

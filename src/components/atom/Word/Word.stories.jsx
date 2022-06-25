@@ -1,7 +1,7 @@
 import Word from './Word';
 
 export default {
-    title: 'Base / Word',
+    title: 'Atom / Word',
 };
 
 const Template = (args) => (

@@ -1,7 +1,7 @@
 import Panel from './Panel';
 
 export default {
-    title: 'Base / Panel',
+    title: 'Atom / Panel',
 };
 
 export const Default = () => <Panel />;

@@ -1,9 +1,9 @@
-import { combineClassNames } from '../../utils/css';
+import { combineClassNames } from '../../../utils/css';
 
 import styles from './Colors.stories.module.css';
 
 export default {
-    title: 'Atoms / Colors',
+    title: 'Atom / Colors',
 };
 
 export const Colors = () => (
