@@ -1,0 +1,13 @@
+@value dark-1, dark-2, light-1 from "../../../constants.module.css";
+
+.word {
+    background-color: dark-2;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5em;
+    min-height: 1.2rem;
+    min-width: 1.2rem;
+    display: inline-block;
+    text-align: center;
+    color: light-1;
+}

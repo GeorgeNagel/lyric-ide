@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 
-const Word = ({ children }) => <div>{children}</div>;
+import styles from './Word.module.css';
+
+const Word = ({ children }) => <span className={styles.word}>{children}</span>;
 
 Word.propTypes = {
     children: PropTypes.node,
