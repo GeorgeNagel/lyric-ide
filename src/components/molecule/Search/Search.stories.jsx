@@ -6,7 +6,11 @@ export default {
 
 const onChangeText = (text) => console.log(text);
 
-const Template = (args) => <Search onChangeText={onChangeText} {...args} />;
+const Template = (args) => (
+    <div style={{ backgroundColor: 'black' }}>
+        <Search onChangeText={onChangeText} {...args} />
+    </div>
+);
 
 export const Default = () => <Template />;
 export const WithSearchTerm = () => <Template text="foo" />;

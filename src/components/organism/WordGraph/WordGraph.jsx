@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import styles from './WordGraph.module.css';
 import { getText, setText } from '../../../state/features/wordGraphSlice';
 import Panel from '../../atom/Panel/Panel';
+import Search from '../../molecule/Search/Search';
 import PanelHeader from '../../atom/PanelHeader/PanelHeader';
 import Word from '../../atom/Word/Word';
 import EditableContent from '../../atom/EditableContent/EditableContent';
@@ -12,7 +13,10 @@ export const WordGraphPure = ({ activeWord, text, onChangeText }) => (
     <Panel>
         <PanelHeader>🧩 WordGraph/Pool</PanelHeader>
         <Panel>{activeWord ? <Word>{activeWord}</Word> : null}</Panel>
-        <EditableContent text={text} onChangeText={onChangeText} />
+        <div className={styles.row}>
+            <EditableContent text={text} onChangeText={onChangeText} />
+            <Search />
+        </div>
     </Panel>
 );
 WordGraphPure.propTypes = {

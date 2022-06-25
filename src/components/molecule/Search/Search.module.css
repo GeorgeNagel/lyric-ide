@@ -1,12 +1,13 @@
-@value dark-1 from "../../../constants.module.css";
+@value dark-1, dark-2, dark-3 from "../../../constants.module.css";
 
 .search-row {
     display: inline-block;
-    border: 1px solid dark-1;
+    border: 1px solid dark-3;
 }
-.search-bar {
+.input {
     height: 1.2rem;
     border: none;
+    background-color: dark-2;
 }
 .mag {
     width: 1.2rem;
@@ -14,4 +15,5 @@
     padding-left: .5rem;
     margin-bottom: -.2rem;
     padding-top: .2rem;
+    color: red;
 }

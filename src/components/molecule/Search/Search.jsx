@@ -8,9 +8,9 @@ const Search = ({ text, onChangeText }) => (
             type="text"
             value={text}
             onChange={onChangeText}
-            className={styles.searchBar}
+            className={styles.input}
         />
-        <MagnifyingGlass className={styles.mag} />
+        <MagnifyingGlass className={styles.mag} light />
     </span>
 );
 
