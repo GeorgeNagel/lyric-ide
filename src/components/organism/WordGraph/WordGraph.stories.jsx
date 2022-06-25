@@ -9,12 +9,14 @@ const onChangeText = (text) => {
 };
 
 const Template = (args) => (
-    <WordGraphPure
-        onChangeText={onChangeText}
-        text="some typed text"
-        activeWord="active word"
-        {...args}
-    />
+    <div style={{ border: '2px solid red' }}>
+        <WordGraphPure
+            onChangeText={onChangeText}
+            text="some typed text"
+            activeWord="active word"
+            {...args}
+        />
+    </div>
 );
 
 export const Default = () => <Template />;

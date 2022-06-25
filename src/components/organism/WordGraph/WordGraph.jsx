@@ -11,7 +11,7 @@ import EditableContent from '../../atom/EditableContent/EditableContent';
 export const WordGraphPure = ({ activeWord, text, onChangeText }) => (
     <Panel>
         <PanelHeader>🧩 WordGraph/Pool</PanelHeader>
-        {activeWord ? <Word>{activeWord}</Word> : null}
+        <Panel>{activeWord ? <Word>{activeWord}</Word> : null}</Panel>
         <EditableContent text={text} onChangeText={onChangeText} />
     </Panel>
 );
