@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 import styles from './WordGraph.module.css';
 import { getText, setText } from '../../../state/features/wordGraphSlice';
-import Panel from '../../base/Panel/Panel';
-import PanelHeader from '../../base/PanelHeader/PanelHeader';
-import Word from '../../base/Word/Word';
-import EditableContent from '../../base/EditableContent/EditableContent';
+import Panel from '../../atom/Panel/Panel';
+import PanelHeader from '../../atom/PanelHeader/PanelHeader';
+import Word from '../../atom/Word/Word';
+import EditableContent from '../../atom/EditableContent/EditableContent';
 
 export const WordGraphPure = ({ activeWord, text, onChangeText }) => (
     <Panel>
